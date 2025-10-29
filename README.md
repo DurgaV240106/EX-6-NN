@@ -18,6 +18,7 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 ## Program:
 ```
+
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
@@ -64,7 +65,10 @@ classification_rep=classification_report(y_test,y_pred)
 print("Accuracy:",accuracy)
 print("Confusion Matrix:\n",conf_matrix)
 print("Classification Report:\n",classification_rep)
+
+
 ```
+
 
 ## Output:
 <img width="890" height="726" alt="image" src="https://github.com/user-attachments/assets/bdc9d0c3-15a2-4e18-8bb9-6d52d35be542" />
@@ -72,5 +76,5 @@ print("Classification Report:\n",classification_rep)
 
 
 
-<H3>Results:</H3>
+## Results:
 Thus, an ANN with MLP is constructed and trained to predict the heart attack using python.
